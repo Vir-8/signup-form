@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Page!</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="content">
+
+    
+        <div class="banner">
+            <div class="logo"> <h1 class="text">ABC DEF</h1></div>
+        </div>
+        <div class="mainBody">
+            
+            <div class="info">
+                This is not a real online service! However, you really need something like this in your life. Sign up now to get started. This is very important. <br> <br> <b> You <em>know</em> you want to.</b>
+            </div>
+
+            <form action="" method="post">
+
+                <div class="header">Let's start!</div>
+
+                <div class="elementContainer">
+                    
+                    <div class="formRow">
+                        <div class="formElement">
+                            <label for="first_name">First Name</label>
+                            <input type="text" id="first_name" placeholder="abc..." name="first_name" minlength="2" maxlength="20" required>
+                        </div>
+                        
+                        <div class="formElement">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" id="last_name" placeholder="def..." name="last_name" minlength="2" maxlength="20" required>
+                        </div>
+                    </div>
+
+                    <div class="formRow">
+                        <div class="formElement">
+                            <label for="email">E-Mail</label>
+                            <input type="email" id="email" placeholder="you@example.com" name="email" required>
+                        </div>
+            
+                        <div class="formElement">
+                            <label for="phone_number">Phone Number</label>
+                            <input type="tel" id="phone_number" name="phone_number" required>
+                        </div>
+                    </div>
+
+                    <div class="formRow">
+                        <div class="formElement">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" name="password" required>
+                        </div>
+            
+                        <div class="formElement">
+                            <label for="confirm_password">Confirm Password</label>
+                            <input type="password" id="confirm_password" name="confirm_password" required>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button type="submit">Create Account</button>
+
+                <div class="login">Already have an account? <a href="">Log in</a> </div>
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
